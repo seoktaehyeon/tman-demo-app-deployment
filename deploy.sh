@@ -15,4 +15,4 @@ ls -al
 opsctl env2yaml --input ${env_input} --output ${env_output}
 opsctl tmpl2art --config ${env_output} --tmpl ${tmpl_path} --output .
 kubectl 
-opsctl asd
+exit 1
