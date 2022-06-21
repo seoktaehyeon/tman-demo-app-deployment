@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
-env_input="env"
-env_output=".env"
+env_input=".env"
+env_output="config"
 tmpl_path="template"
 ls -al
 [[ -f ${env_input} ]] || {
