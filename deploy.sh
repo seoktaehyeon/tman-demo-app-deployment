@@ -3,6 +3,7 @@ set -ex
 env_input="env"
 env_output=".env"
 tmpl_path="template"
+ls -al
 [[ -f ${env_input} ]] || {
     echo "===== ERROR ===== No env input file"
     exit 1
