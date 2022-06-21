@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -ex
 env_input="env"
 env_output=".env"
