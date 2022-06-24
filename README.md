@@ -1,19 +1,19 @@
 # Application Deployement Scripts Demo
 
-## Precondition for deployment
+## 部署前的预处理
 
-- prepare yaml env file
+- 把 env 导出文件转换成 YAML 格式
 
 ```bash
 opsctl env2yaml --input ${env_input} --output ${env_output}
 ```
 
-- render template for deployment
+- 渲染 template 目录中的所有文件
 
 ```bash
 opsctl tmpl2art --config ${env_output} --tmpl ${tmpl_path} --output .
 ```
 
-## Append the deployment scripts
+## 添加部署脚本
 
-append scripts into `deploy.sh`
+追加脚本到 `deploy.sh` 
