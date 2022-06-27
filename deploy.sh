@@ -22,4 +22,4 @@ sleep 10
 docker-compose -f compose.yaml ps 
 
 # K8S
-#kubectl 
+#kubectl --kubeconfig=kubeconfig get namespace
