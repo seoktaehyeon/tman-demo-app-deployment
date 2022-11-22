@@ -19,6 +19,7 @@ opsctl tmpl2art --config ${env_output} --tmpl ${tmpl_path} --output .
 [[ -f debug.yaml ]] && cat debug.yaml
 
 # docker-compose
+cat compose.yaml
 #docker-compose -f compose.yaml pull
 #docker-compose -f compose.yaml up -d
 #sleep 10
