@@ -2,21 +2,21 @@ version: '2'
 services:
   tman-demo-svc-js:
     container_name: tman-demo-svc-js
-    image: bxwill/tman-demo-service:js-{{ bamboo_jssvc_version }}
+    image: bxwill/tman-demo-service:js-{{ bamboo_svcjs_version }}
     ports:
-      - 8080:80
+      - 18080:80
   tman-demo-svc-java:
     container_name: tman-demo-svc-java
-    image: bxwill/tman-demo-service:java-{{ bamboo_javasvc_version }}
+    image: bxwill/tman-demo-service:java-{{ bamboo_svcjava_version }}
     ports:
-      - 8081:8080
+      - 18081:8080
   tman-demo-svc-python:
     container_name: tman-demo-svc-python
-    image: bxwill/tman-demo-service:python-{{ bamboo_pythonsvc_version }}
+    image: bxwill/tman-demo-service:python-{{ bamboo_svcpython_version }}
     ports:
-      - 8082:8080
+      - 18082:8080
   tman-demo-svc-go:
     container_name: tman-demo-svc-go
-    image: bxwill/tman-demo-service:go-{{ bamboo_gosvc_version }}
+    image: bxwill/tman-demo-service:go-{{ bamboo_svcgo_version }}
     ports:
-      - 8083:8080
+      - 18083:8080
