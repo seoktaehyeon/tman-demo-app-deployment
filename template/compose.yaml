@@ -7,7 +7,8 @@ services:
       - 8080:80
   tman-demo-svc-java:
     container_name: tman-demo-svc-java
-    image: bxwill/tman-demo-service:java
+#    image: bxwill/tman-demo-service:java
+    image: bxwill/tman-demo-service:java-{{ bamboo_javasvc }}
     ports:
       - 8081:8080
   tman-demo-svc-python:
