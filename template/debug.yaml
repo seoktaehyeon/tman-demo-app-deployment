@@ -1,0 +1,2 @@
+name: {{ bamboo_deployment_name }}
+server: {{ bamboo_deployment_server }}
